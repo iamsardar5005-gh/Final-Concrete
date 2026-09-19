@@ -1,0 +1,8 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Capital Garage Door Co. mark">
+<rect x="1" y="1" width="46" height="46" rx="8" fill="#0a1a28"/>
+<path d="M34 14 A15 15 0 1 0 34 34" fill="none" stroke="#f6f1e7" stroke-width="4" stroke-linecap="round"/>
+<line x1="15" y1="18" x2="15" y2="30" stroke="#b3873f" stroke-width="4" stroke-linecap="round"/>
+<line x1="21" y1="15" x2="21" y2="33" stroke="#b3873f" stroke-width="4" stroke-linecap="round"/>
+<circle cx="34" cy="14" r="2.6" fill="#cf9f57"/>
+<circle cx="34" cy="34" r="2.6" fill="#cf9f57"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="procTitle">
+<title id="procTitle">Detail illustration of a gloved hand adjusting a garage door torsion spring with a winding bar</title>
+<defs>
+  <linearGradient id="pBg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#173751"/>
+    <stop offset="100%" stop-color="#0a1a28"/>
+  </linearGradient>
+</defs>
+<rect width="1000" height="900" fill="url(#pBg)"/>
+
+<!-- shaft -->
+<rect x="60" y="420" width="880" height="26" rx="13" fill="#0d2032" stroke="#204a6b" stroke-width="4"/>
+
+<!-- torsion spring coil -->
+<g stroke="#cf9f57" stroke-width="10" fill="none" stroke-linecap="round">
+  <path d="M160,433 q30,-60 60,0 q30,60 60,0 q30,-60 60,0 q30,60 60,0 q30,-60 60,0 q30,60 60,0 q30,-60 60,0 q30,60 60,0 q30,-60 60,0"/>
+</g>
+
+<!-- cable drum -->
+<circle cx="820" cy="433" r="56" fill="#0d2032" stroke="#b3873f" stroke-width="8"/>
+<circle cx="820" cy="433" r="14" fill="#b3873f"/>
+
+<!-- winding bar -->
+<rect x="470" y="200" width="22" height="260" rx="10" fill="#e9e2d2" transform="rotate(18 481 330)"/>
+<rect x="470" y="440" width="22" height="60" rx="10" fill="#e9e2d2" transform="rotate(18 481 470)"/>
+
+<!-- gloved hand (simplified mitten shape) gripping bar -->
+<g transform="translate(505,470)">
+  <path d="M-46,-10 C-52,-46 -30,-70 0,-70 C30,-70 50,-46 44,-8 C60,-2 62,30 40,40 L-30,40 C-56,30 -54,-2 -46,-10 Z" fill="#b3873f"/>
+  <path d="M-46,-10 C-52,-46 -30,-70 0,-70 C30,-70 50,-46 44,-8" fill="none" stroke="#0a1a28" stroke-width="4"/>
+</g>
+
+<!-- spark/tension marks -->
+<g stroke="#cf9f57" stroke-width="4" opacity=".8">
+  <line x1="560" y1="360" x2="590" y2="330"/>
+  <line x1="580" y1="380" x2="616" y2="360"/>
+</g>
+
+<rect width="1000" height="900" fill="#0a1a28" opacity=".05"/>
+</svg>
