@@ -3,12 +3,12 @@
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0%" stop-color="#12314a"/>
-    <stop offset="55%" stop-color="#0f2438"/>
-    <stop offset="100%" stop-color="#0a1a28"/>
+    <stop offset="55%" stop-color="#123C74"/>
+    <stop offset="100%" stop-color="#0B2C57"/>
   </linearGradient>
   <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#cf9f57" stop-opacity=".35"/>
-    <stop offset="100%" stop-color="#cf9f57" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#5B9BFF" stop-opacity=".35"/>
+    <stop offset="100%" stop-color="#5B9BFF" stop-opacity="0"/>
   </linearGradient>
   <pattern id="brick" width="46" height="24" patternUnits="userSpaceOnUse">
     <rect width="46" height="24" fill="#5c2f28"/>
@@ -29,37 +29,37 @@
 <circle cx="1310" cy="180" r="210" fill="url(#glow)"/>
 
 <!-- distant tree line -->
-<g opacity=".55" fill="#173751">
+<g opacity=".55" fill="#1A4B8C">
   <ellipse cx="120" cy="640" rx="140" ry="96"/>
   <ellipse cx="1500" cy="660" rx="160" ry="104"/>
   <ellipse cx="1420" cy="600" rx="90" ry="70"/>
 </g>
 
 <!-- ground -->
-<rect x="0" y="700" width="1600" height="300" fill="#0d2032"/>
-<rect x="0" y="700" width="1600" height="10" fill="#204a6b"/>
+<rect x="0" y="700" width="1600" height="300" fill="#123C74"/>
+<rect x="0" y="700" width="1600" height="10" fill="#2560AD"/>
 
 <!-- driveway -->
-<path d="M520,1000 L700,700 L1120,700 L1220,1000 Z" fill="#233f56"/>
-<path d="M520,1000 L700,700 L720,700 L560,1000 Z" fill="#2c4c66" opacity=".6"/>
+<path d="M520,1000 L700,700 L1120,700 L1220,1000 Z" fill="#123C74"/>
+<path d="M520,1000 L700,700 L720,700 L560,1000 Z" fill="#2560AD" opacity=".6"/>
 
 <!-- house body -->
 <rect x="330" y="330" width="760" height="380" fill="url(#brick)"/>
-<rect x="330" y="330" width="760" height="380" fill="#0a1a28" opacity=".18"/>
+<rect x="330" y="330" width="760" height="380" fill="#0B2C57" opacity=".18"/>
 <!-- roof -->
-<path d="M300,340 L710,120 L1120,340 Z" fill="#0a1a28"/>
-<path d="M300,340 L710,120 L720,120 L316,340 Z" fill="#173751"/>
+<path d="M300,340 L710,120 L1120,340 Z" fill="#0B2C57"/>
+<path d="M300,340 L710,120 L720,120 L316,340 Z" fill="#1A4B8C"/>
 <!-- chimney -->
-<rect x="960" y="150" width="46" height="110" fill="#0a1a28"/>
+<rect x="960" y="150" width="46" height="110" fill="#0B2C57"/>
 
 <!-- windows -->
-<g fill="#cf9f57" opacity=".9">
+<g fill="#5B9BFF" opacity=".9">
   <rect x="380" y="400" width="70" height="90" rx="2"/>
   <rect x="380" y="520" width="70" height="90" rx="2"/>
   <rect x="960" y="400" width="70" height="90" rx="2"/>
   <rect x="960" y="520" width="70" height="90" rx="2"/>
 </g>
-<g stroke="#0a1a28" stroke-width="4" fill="none">
+<g stroke="#0B2C57" stroke-width="4" fill="none">
   <rect x="380" y="400" width="70" height="90" rx="2"/>
   <line x1="415" y1="400" x2="415" y2="490"/>
   <line x1="380" y1="445" x2="450" y2="445"/>
@@ -72,57 +72,57 @@
 </g>
 
 <!-- garage structure (attached, foreground right of center) -->
-<rect x="640" y="430" width="360" height="280" fill="#132c42"/>
-<path d="M615,440 L820,300 L1025,440 Z" fill="#0a1a28"/>
+<rect x="640" y="430" width="360" height="280" fill="#1A4B8C"/>
+<path d="M615,440 L820,300 L1025,440 Z" fill="#0B2C57"/>
 
 <!-- garage opening (open, dark interior) -->
 <rect x="672" y="470" width="296" height="240" fill="#050e17"/>
 <!-- interior track lines suggesting depth -->
-<g stroke="#204a6b" stroke-width="3" opacity=".8">
+<g stroke="#2560AD" stroke-width="3" opacity=".8">
   <line x1="672" y1="470" x2="710" y2="500"/>
   <line x1="968" y1="470" x2="930" y2="500"/>
   <line x1="710" y1="500" x2="710" y2="710"/>
   <line x1="930" y1="500" x2="930" y2="710"/>
 </g>
 <!-- open door panel stacked at header -->
-<g fill="#173751" stroke="#0a1a28" stroke-width="2">
+<g fill="#1A4B8C" stroke="#0B2C57" stroke-width="2">
   <rect x="686" y="474" width="268" height="16"/>
   <rect x="686" y="492" width="268" height="16"/>
   <rect x="686" y="510" width="268" height="16"/>
 </g>
 
 <!-- spring/rail hardware glint -->
-<line x1="700" y1="486" x2="940" y2="486" stroke="#cf9f57" stroke-width="3" opacity=".85"/>
+<line x1="700" y1="486" x2="940" y2="486" stroke="#5B9BFF" stroke-width="3" opacity=".85"/>
 
 <!-- technician silhouette, reaching up at the header hardware -->
 <g transform="translate(860,540)">
   <!-- torso -->
-  <path d="M-30,60 C-34,10 -20,-40 0,-46 C20,-40 34,10 30,60 Z" fill="#0a1a28"/>
+  <path d="M-30,60 C-34,10 -20,-40 0,-46 C20,-40 34,10 30,60 Z" fill="#0B2C57"/>
   <!-- raised arm to spring -->
-  <path d="M14,-30 C34,-58 46,-92 40,-118" stroke="#0a1a28" stroke-width="20" stroke-linecap="round" fill="none"/>
-  <circle cx="40" cy="-118" r="10" fill="#cf9f57"/>
+  <path d="M14,-30 C34,-58 46,-92 40,-118" stroke="#0B2C57" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <circle cx="40" cy="-118" r="10" fill="#5B9BFF"/>
   <!-- other arm -->
-  <path d="M-18,-10 C-34,4 -40,26 -36,44" stroke="#0a1a28" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <path d="M-18,-10 C-34,4 -40,26 -36,44" stroke="#0B2C57" stroke-width="18" stroke-linecap="round" fill="none"/>
   <!-- legs -->
-  <path d="M-14,58 L-20,140" stroke="#0a1a28" stroke-width="20" stroke-linecap="round"/>
-  <path d="M12,58 L20,140" stroke="#0a1a28" stroke-width="20" stroke-linecap="round"/>
+  <path d="M-14,58 L-20,140" stroke="#0B2C57" stroke-width="20" stroke-linecap="round"/>
+  <path d="M12,58 L20,140" stroke="#0B2C57" stroke-width="20" stroke-linecap="round"/>
   <!-- head + cap -->
-  <circle cx="0" cy="-58" r="20" fill="#0a1a28"/>
-  <path d="M-20,-64 a20,20 0 0 1 40,0 l6,-2 -2,-10 -44,0 -2,10 Z" fill="#b3873f"/>
+  <circle cx="0" cy="-58" r="20" fill="#0B2C57"/>
+  <path d="M-20,-64 a20,20 0 0 1 40,0 l6,-2 -2,-10 -44,0 -2,10 Z" fill="#2F7DF6"/>
   <!-- tool belt glint -->
-  <rect x="-30" y="46" width="60" height="8" fill="#b3873f" opacity=".9"/>
+  <rect x="-30" y="46" width="60" height="8" fill="#2F7DF6" opacity=".9"/>
 </g>
 
 <!-- service van, simplified -->
 <g transform="translate(1090,610)">
-  <rect x="0" y="-40" width="230" height="90" rx="10" fill="#e9e2d2"/>
-  <rect x="0" y="-70" width="120" height="40" rx="8" fill="#e9e2d2"/>
-  <rect x="14" y="-58" width="70" height="26" rx="3" fill="#0f2438" opacity=".85"/>
-  <rect x="10" y="-6" width="150" height="26" fill="#173751"/>
-  <text x="24" y="12" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#cf9f57" letter-spacing="1">CAPITAL GARAGE DOOR CO.</text>
-  <circle cx="40" cy="52" r="20" fill="#0a1a28"/>
+  <rect x="0" y="-40" width="230" height="90" rx="10" fill="#E7ECF4"/>
+  <rect x="0" y="-70" width="120" height="40" rx="8" fill="#E7ECF4"/>
+  <rect x="14" y="-58" width="70" height="26" rx="3" fill="#123C74" opacity=".85"/>
+  <rect x="10" y="-6" width="150" height="26" fill="#1A4B8C"/>
+  <text x="24" y="12" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#5B9BFF" letter-spacing="1">CAPITAL GARAGE DOOR CO.</text>
+  <circle cx="40" cy="52" r="20" fill="#0B2C57"/>
   <circle cx="40" cy="52" r="8" fill="#3a3a3a"/>
-  <circle cx="190" cy="52" r="20" fill="#0a1a28"/>
+  <circle cx="190" cy="52" r="20" fill="#0B2C57"/>
   <circle cx="190" cy="52" r="8" fill="#3a3a3a"/>
 </g>
 
